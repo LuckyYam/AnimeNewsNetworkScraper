@@ -1,7 +1,8 @@
 {
   "name": "@shineiichijo/anime-news-network-scraper",
-  "description": "Scrap news from Anime News Network",
+  "description": "Scrap news contents and feeds from Anime News Network",
   "license": "MIT",
+  "version": "0.0.1",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write --config .prettierrc.json \"src/**/*.ts\""
@@ -9,6 +10,20 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuckyYam/AnimeNewsNetworkScraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuckyYam/AnimeNewsNetworkScraper/issues"
+  },
+  "homepage": "https://github.com/LuckyYam/AnimeNewsNetworkScraper#readme",
+  "author": {
+    "name": "Lucky Yambem",
+    "url": "https://github.com/LuckyYam"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
