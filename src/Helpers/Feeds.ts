@@ -7,10 +7,6 @@ const fixCategory = (category: TCategory | TCategory[]): TCategory[] => {
     return category
 }
 
-/**
- * Gets news feed from Anime News Network
- * @returns {IFeed[]} Array of news feed
- */
 export const getNewsFeeds = async (): Promise<IFeed[]> =>
     await axios
         .get<string>('https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us')

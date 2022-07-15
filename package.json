@@ -2,7 +2,7 @@
   "name": "@shineiichijo/anime-news-network-scraper",
   "description": "Scrap news contents and feeds from Anime News Network",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write --config .prettierrc.json \"src/**/*.ts\""
