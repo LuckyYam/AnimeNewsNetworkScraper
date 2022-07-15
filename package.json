@@ -1,0 +1,24 @@
+{
+  "name": "@shineiichijo/anime-news-network-scraper",
+  "description": "Scrap news from Anime News Network",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write --config .prettierrc.json \"src/**/*.ts\""
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fast-xml-parser": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                
+    "lib": ["EsNext"],                                       
+    "module": "commonjs", 
+    "declaration": true,                            
+    "outDir": "./dist",
+    "esModuleInterop": true,            
+    "strict": true,                                   
+    "noImplicitAny": true,                           
+    "strictNullChecks": true,                         
+    "skipLibCheck": true                               
+  },
+  "include": ["src/**/*.ts"]
+}
