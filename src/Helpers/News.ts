@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { parse } from './NewsParser'
-import { INewsResponse } from '../Types'
+import { INewsResponse } from '../Typings'
 
 export const getNewsContents = async (url: string): Promise<INewsResponse> => {
     if (!url) throw new TypeError("The 'url' parameter shouldn't be undefined")

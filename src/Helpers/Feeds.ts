@@ -1,6 +1,6 @@
 import { XMLParser } from 'fast-xml-parser'
 import axios from 'axios'
-import { IParsedXML, TCategory, IFeed } from '../types'
+import { IParsedXML, TCategory, IFeed } from '../Typings'
 
 const fixCategory = (category: TCategory | TCategory[]): TCategory[] => {
     if (typeof category === 'string') return [category]

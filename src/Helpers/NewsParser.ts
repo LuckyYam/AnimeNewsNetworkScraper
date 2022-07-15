@@ -1,5 +1,5 @@
 import { load } from 'cheerio'
-import { INewsResponse } from '../Types'
+import { INewsResponse } from '../Typings'
 
 export const parse = (data: string): INewsResponse => {
     const $ = load(data)
