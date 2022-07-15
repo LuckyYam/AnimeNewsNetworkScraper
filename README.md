@@ -2,7 +2,11 @@
 
 [![NPM](https://img.shields.io/badge/Available%20On-NPM-lightgrey.svg?logo=npm&logoColor=339933&labelColor=white&style=flat-square)](https://www.npmjs.com/package/@shineiichijo/anime-news-network-scraper)
 
-Get news feed and news from [Anime News Network](https://www.animenewsnetwork.com/)
+<div align=center>
+<a href="https://github.com/LuckyYam/AnimeNewsNetworkScraper"><img src="https://i.imgur.com/KkkVr1g.png" alt="anime-news-network" border="0"></a>
+
+
+Scrap news feeds and contents from [Anime News Network](https://www.animenewsnetwork.com/)
 
 ---
 

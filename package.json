@@ -2,7 +2,7 @@
   "name": "@shineiichijo/anime-news-network-scraper",
   "description": "Scrap news contents and feeds from Anime News Network",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write --config .prettierrc.json \"src/**/*.ts\""
@@ -17,6 +17,13 @@
   "bugs": {
     "url": "https://github.com/LuckyYam/AnimeNewsNetworkScraper/issues"
   },
+  "keywords": [
+    "anime",
+    "manga",
+    "anime-news-network",
+    "anime-news",
+    "manga-news"
+  ],
   "homepage": "https://github.com/LuckyYam/AnimeNewsNetworkScraper#readme",
   "author": {
     "name": "Lucky Yambem",
