@@ -15,7 +15,7 @@ Scrap news feeds and contents from [Anime News Network](https://www.animenewsnet
 yarn add @shineiichijo/anime-news-network-scraper
 ```
 
-## Usage
+## Example Usage
 ## Get News feeds
 ```ts
 import { client } from '@shineiichijo/anime-news-network-scraper'
